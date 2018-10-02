@@ -72,8 +72,10 @@ The best way to contact me is:
 
 <br/>
 <br/>
-<button ion-button onclick="location.href = '';" id="myButton" class="submit-button" >Submit Questionnaire</button>
 
+<button ion-button (click)="presentAlert($presentAlert)">
+  Complete Questionnaire
+</button>
 <br/>
 <p>
   Currently, you must click on the 'Contact' tab in the Navigation bar to see your potential partner.
